@@ -7,13 +7,13 @@
  */
 package org.cloudbus.cloudsim;
 
-import lombok.Getter;
-import org.cloudbus.cloudsim.core.CloudSim;
-
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+
+import lombok.Getter;
+import org.cloudbus.cloudsim.core.CloudSim;
 
 /**
  * Cloudlet is an extension to the cloudlet. It stores, despite all the
@@ -1504,12 +1504,6 @@ public class Cloudlet {
      */
     public double getUtilizationOfBw(final double time) {
         return getUtilizationModelBw().getUtilization(time);
-    }
-
-    @Override
-    public String toString() {
-        return "Cloudlet #" + cloudletId + ": Length " + cloudletLength + ", Filesize " + cloudletFileSize
-                + ", Output size " + cloudletOutputSize + ", Number of PE " + numberOfPes;
     }
 
 }

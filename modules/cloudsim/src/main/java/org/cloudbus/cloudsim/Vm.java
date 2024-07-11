@@ -627,9 +627,4 @@ public class Vm {
 		this.inPause = inPause;
 	}
 
-	@Override
-	public String toString(){
-		return "VM #" + id + ", PE: " + numberOfPes + ", RAM: " + ram + ", BW: " + bw + ", MIPS: " + mips;
-	}
-
 }
