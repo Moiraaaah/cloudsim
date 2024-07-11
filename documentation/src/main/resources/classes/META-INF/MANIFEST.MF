@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1718787530022
+Build-Jdk-Spec: 17
+Bundle-Description: CloudSim: A Framework For Modeling And Simulation Of
+  Cloud Computing Infrastructures And Services
+Bundle-ManifestVersion: 2
+Bundle-Name: cloudsim-toolkit
+Bundle-SymbolicName: cloudsim-toolkit
+Bundle-Version: 5.1.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Import-Package: org.apache.log4j;resolution:=optional
+Tool: Bnd-6.3.1.202206071316
